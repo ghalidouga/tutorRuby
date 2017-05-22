@@ -31,16 +31,32 @@
 # ganjil_apa_genap(15)
 # ganjil_apa_genap(17)
 
-jumlah = 10
-x = 8
-y = 2
-buah = "apel"
-enak = true
+# jumlah = 10
+# x = 8
+# y = 2
+# buah = "apel"
+# enak = true
 
-if jumlah == x + y && buah == "apel"
-    puts "benar"
-else
-    puts "salah"
+# if jumlah == x * y && buah == "apel"
+#     puts "benar"
+# else
+#     puts "salah"
+# end
+
+# if jumlah == x * y || buah == "apel"
+#     puts "benar"
+# else
+#     puts "salah"
+# end
+
+# puts !enak
+
+menu = "mulai"
+
+while menu != "exit"
+    puts "Welcome..."
+    print "Input something: "
+    menu = gets.chomp
 end
 
-puts enak
+puts "Anda berhasil kabur."
