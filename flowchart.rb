@@ -1,7 +1,7 @@
 puts "Bangun tidur gan..."
 puts "Mandi dulu gan..."
 
-lapar = false
+lapar = true
 if lapar
     puts "makan dulu gan..."
 else
